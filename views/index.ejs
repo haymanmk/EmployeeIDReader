@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>EmployeeID Reader</title>
+</head>
+
+<body>
+    <header>- Employee ID -</header>
+    <div class="main-container">
+        <div class="left-container">
+            <!-- <img class="employee-img" src="http://10.128.0.10/engineers/images/17520.jpg" alt="EmployeeIMG"> -->
+            <img class="employee-img" src=<%= EmployeeIMG %> alt="EmployeeIMG">
+        </div>
+        <div class="right-container">
+            <form action="/api" method="post">
+                <input type="text" name="CardID" placeholder="CardID" autofocus>
+                <input type="submit" value="submit" hidden />
+            </form>
+            <p><%= EmployeeID %></p>
+            <p><%= EmployeeNameEng %></p>
+            <p><%= EmployeeNameCht %></p>
+            <p><%= EmployeeSector %></p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "employeeidreader",
+  "version": "1.0.0",
+  "description": "employee id reader",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haymanmk/EmployeeIDReader.git"
+  },
+  "author": "hayman chan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haymanmk/EmployeeIDReader/issues"
+  },
+  "homepage": "https://github.com/haymanmk/EmployeeIDReader#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}
