@@ -7,6 +7,7 @@ header {
     font-size: 4rem;
     text-align: center;
     margin-bottom: 50px;
+    font-weight: bolder;
 }
 
 .main-container {
@@ -19,6 +20,8 @@ header {
 .employee-img {
     width: 25vw;
     margin-right: 50px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 10px 1px darkgray;
 }
 
 .right-container {
@@ -31,4 +34,12 @@ input {
     font-size: 2.5rem;
     margin: 5px;
     padding: 5px 10px;
+    border: #eee;
+    border-radius: 1rem;
+}
+
+p{
+    margin: 0px;
+    margin-left: 15px;
+    font-size: 2rem;
 }
