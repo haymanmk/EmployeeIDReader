@@ -21,7 +21,7 @@ To well manage the packages used in project, npm can handle it well. Type `npm i
 Open a terminal and change directory to the project folder, type `npm install express` which will install it and create a dependency between project and express package.
 
 ## Install Axios
-We have used Express to build a server side application, next step is to create a client side program which is responsible for post data to web API or get data from web API. Axios is a simple [promise based](https://www.casper.tw/development/2020/02/16/all-new-promise/) HTTP client for the browser and node.js.
+We have used Express to build a server side application, next step is to create a client side program which is responsible for post data to web API or get data from web API. Axios is a simple [promise based](https://www.casper.tw/development/2020/02/16/all-new-promise/) HTTP client for the browser and node.js. Simply type `npm install axios` to install it.
 
 ## Install EJS
 [EJS](https://ejs.co/) is a simple templating language that lets you generate HTML markup with plain JavaScript. I use EJS to create a JavaScript-based HTML tamplate which lets you update different data or information to this HTML template without having to built a new HTML page for different request. In the same way, simply type `npm install ejs` to install it.
