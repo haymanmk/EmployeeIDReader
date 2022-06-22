@@ -9,7 +9,7 @@ This app is built with Html, CSS, JavaScript, and other tools, such as EJS, Expr
 
 ## Install Node.js
 As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications. To create a server on local device, Node.js is supposed to [download](https://nodejs.org/en/download/) and install firstly.
-> Node.js can help your program to access resources of local device with easy, such as read files in your device and access interfaces the device has.
+> Node.js can help your program to access resources of local device with ease, such as read files in your device and access interfaces the device has.
 
 ## npm
 npm is the world's largest software registry. Open source developers from every continent use npm to share and borrow packages. After installing Node.js, npm is also installed alongside it. Packages shared from worldwide developers can be search on [npm website](https://www.npmjs.com/), and then type in `npm install "packageName`" in  terminal to download and install this package in your project.
