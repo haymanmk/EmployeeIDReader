@@ -5,8 +5,9 @@ const bodyParser = require('body-parser');
 
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.urlencoded({ extended: true }));
-
+console.log(__dirname);
 app.set('view engine', 'ejs');
+app.set('views', __dirname+'/views');
 
 let CardID = '0006771993';
 
@@ -30,10 +31,11 @@ app.get('/', (req, res) => {
     console.log(`Error occurred: ${err}`);
   }
   );
-
+  console.log('webpage rendered');
 });
 
 app.post('/api', (req, res) => {
+  console.log(req);
   CardID = req.body.CardID;
   res.redirect('/');
 });

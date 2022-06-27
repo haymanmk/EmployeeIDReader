@@ -28,3 +28,7 @@ We have used Express to build a server side application, next step is to create 
 
 # How to run this app
 Type `node app.js` in terminal to activate a server in the local device, and then open a browser, visit local server by typing http://localhost:5000/ in the address bar.
+
+# Quick Note
+
+![](C:\Users\chanhayman\Downloads\quickNote.PNG)
